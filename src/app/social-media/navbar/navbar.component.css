@@ -1,0 +1,24 @@
+.header-container{
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgba(128, 128, 128,0.2);
+}
+
+.header-nav{
+  display:flex;
+  padding: 5px;
+  /* background-color: aqua; */
+}
+.header-nav ul{
+  list-style-type: none;
+}
+.header-nav ul li{
+  display: inline;
+  padding-left: 15px;
+}
+.header-nav ul li a{
+  text-decoration: none;
+}
+.header-nav ul li a:visited{
+  color: blue
+}
